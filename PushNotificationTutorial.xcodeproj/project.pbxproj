@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D10F48516DD714F00690A0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D10F48416DD714F00690A0F /* CoreLocation.framework */; };
 		C44D5FA7161FA226007044A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA1161FA226007044A5 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C44D5FA8161FA226007044A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA2161FA226007044A5 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C44D5FA9161FA226007044A5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA3161FA226007044A5 /* libsqlite3.dylib */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D10F48416DD714F00690A0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C44D5FA1161FA226007044A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C44D5FA2161FA226007044A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		C44D5FA3161FA226007044A5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D10F48516DD714F00690A0F /* CoreLocation.framework in Frameworks */,
 				C44D5FA7161FA226007044A5 /* Accounts.framework in Frameworks */,
 				C44D5FA8161FA226007044A5 /* AdSupport.framework in Frameworks */,
 				C44D5FAB161FA226007044A5 /* Social.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		D4F419C514D90FFB00D02120 = {
 			isa = PBXGroup;
 			children = (
+				6D10F48416DD714F00690A0F /* CoreLocation.framework */,
 				D4F419DA14D90FFB00D02120 /* PushNotificationTutorial */,
 				D4F419D314D90FFB00D02120 /* Frameworks */,
 				D4F419D114D90FFB00D02120 /* Products */,
