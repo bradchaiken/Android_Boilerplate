@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D10F48516DD714F00690A0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D10F48416DD714F00690A0F /* CoreLocation.framework */; };
+		6D2CA81916E01A8300B2695E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D2CA81816E01A8300B2695E /* Default-568h@2x.png */; };
 		C44D5FA7161FA226007044A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA1161FA226007044A5 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C44D5FA8161FA226007044A5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA2161FA226007044A5 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C44D5FA9161FA226007044A5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D5FA3161FA226007044A5 /* libsqlite3.dylib */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		6D10F48416DD714F00690A0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6D2CA81816E01A8300B2695E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C44D5FA1161FA226007044A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C44D5FA2161FA226007044A5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		C44D5FA3161FA226007044A5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -92,7 +94,6 @@
 		D4F419C514D90FFB00D02120 = {
 			isa = PBXGroup;
 			children = (
-				6D10F48416DD714F00690A0F /* CoreLocation.framework */,
 				D4F419DA14D90FFB00D02120 /* PushNotificationTutorial */,
 				D4F419D314D90FFB00D02120 /* Frameworks */,
 				D4F419D114D90FFB00D02120 /* Products */,
@@ -110,6 +111,7 @@
 		D4F419D314D90FFB00D02120 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D10F48416DD714F00690A0F /* CoreLocation.framework */,
 				C44D5FA1161FA226007044A5 /* Accounts.framework */,
 				C44D5FA2161FA226007044A5 /* AdSupport.framework */,
 				D4F419F514D9152D00D02120 /* AudioToolbox.framework */,
@@ -146,6 +148,7 @@
 		D4F419DB14D90FFB00D02120 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D2CA81816E01A8300B2695E /* Default-568h@2x.png */,
 				D4F419DC14D90FFB00D02120 /* PushNotificationTutorial-Info.plist */,
 				D4F419DD14D90FFB00D02120 /* InfoPlist.strings */,
 				D4F419E014D90FFB00D02120 /* main.m */,
@@ -206,6 +209,7 @@
 			files = (
 				D4F419DF14D90FFB00D02120 /* InfoPlist.strings in Resources */,
 				D4F419EB14D90FFB00D02120 /* ViewController.xib in Resources */,
+				6D2CA81916E01A8300B2695E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +254,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Matt GA (3L3N2A5A2V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matt GA (3L3N2A5A2V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -266,8 +270,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -278,8 +282,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Matt GA (3L3N2A5A2V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matt GA (3L3N2A5A2V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -288,8 +292,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -298,8 +302,8 @@
 		D4F419EF14D90FFB00D02120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Matt GA (3L3N2A5A2V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matt GA (3L3N2A5A2V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -308,8 +312,8 @@
 				GCC_PREFIX_HEADER = "PushNotificationTutorial/PushNotificationTutorial-Prefix.pch";
 				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -317,8 +321,8 @@
 		D4F419F014D90FFB00D02120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Matt GA (3L3N2A5A2V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matt GA (3L3N2A5A2V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -327,8 +331,8 @@
 				GCC_PREFIX_HEADER = "PushNotificationTutorial/PushNotificationTutorial-Prefix.pch";
 				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "181F61BA-5F9A-4CF4-99C8-05D8FE4A35FF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
