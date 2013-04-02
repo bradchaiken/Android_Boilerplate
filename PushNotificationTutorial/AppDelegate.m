@@ -14,7 +14,6 @@
     
     // ****************************************************************************
     // Uncomment and fill in with your Parse credentials:
-    [Parse setApplicationId:@"G6LXxwMb6BYp2Pl6ZPHchc8yAQcuvnwGJd1KMIK4" clientKey:@"Zj6jQOIH7S5PY9CGMTcpHffcLyY2tKhOxMoPl4WA"];
     // [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
     // ****************************************************************************
     
