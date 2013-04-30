@@ -1,5 +1,4 @@
 //
-//  Copyright (c) 2013 Parse. All rights reserved.
 
 #import "AppDelegate.h"
 #import "ViewController.h"
