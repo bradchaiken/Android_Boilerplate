@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parse Push Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_message">Welcome! Tell us a bit more about yourself.</string>
+    <string name="gender_text_view">Gender</string>
+    <string name="age_text_view">Age</string>
+    <string name="interests">Interests</string>
+    <string name="gender_male_button">Male</string>
+    <string name="gender_female_button">Female</string>
+    <string name="save_button">Save</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="ok_button">OK</string>
+    <string name="alert_dialog_title">Profile</string>
+    <string name="alert_dialog_success">Saved!</string>
+	<string name="alert_dialog_failed">Failed with error.</string>
+</resources>
