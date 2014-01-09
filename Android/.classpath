@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="bin/dexedLibs/android-support-v4-c50482840309f1c7a44c5832f2f97a00.jar"/>
-	<classpathentry kind="lib" path="bin/dexedLibs/android-support-v4-d1a2f65243e95ec257027b05b4f9c17b.jar"/>
-	<classpathentry kind="lib" path="bin/dexedLibs/Parse-1.3.0-1aff424a9962e8fc5318a79baa9d4c88.jar"/>
-	<classpathentry kind="lib" path="bin/dexedLibs/Parse-1.3.0-faa4698adf8c57164528dc525a8b4cff.jar"/>
 	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
-	<classpathentry kind="lib" path="libs/Parse-1.3.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/Parse-1.4.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
