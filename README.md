@@ -1,4 +1,4 @@
 Android_Boilerplate
 ===================
 
-Android Activity Boilerplate with Push Notifications. Push notifications are handled by parse.
+Android Activity Boilerplate with Push Notifications. Push notifications are handled by parse: https://parse.com/
